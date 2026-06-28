@@ -17,7 +17,7 @@ public class GestionFlotte {
             System.out.println("Moto indisponible");
         }
     }
-    public double alculerRevenuJournalier() {
+    public double calculerRevenuJournalier() {
            double tarifParMoto = 1500 ;
            double revenuTotal = 0;
            for (Moto m : motos) {
